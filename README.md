@@ -1,14 +1,14 @@
 <p align="center"><img src="https://raw.githubusercontent.com/z1g-project/terbium/main/static/resources/terbium.png" height="200">
 </p>
 
-# TerbiumOS Rewrite Edition (DEV)
+# TerbiumOS Rewrite Edition for Replit (DEV)
 
 # Quick Deployments
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-v2)
+[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-replit)
 
 # Description
  - Terbium is a easy to use webOS that runs on NodeJS very smoothly and is free to deploy to replit *UPDATE Heroku support is being droppeded since the free dyno period is over.
- - BruhProx and Ultraviolet scripts are included
+ - BruhProx and Ultraviolet scripts are **NOT** included and are Cloud Based
  
 # Setup Guide
  If your doing this on Replit use the quick deployment button above. If your usinng a custom server or something that requires manual setup heres what to do
