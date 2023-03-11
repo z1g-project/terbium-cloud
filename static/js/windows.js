@@ -1098,7 +1098,6 @@ class WIN {
                             const url = data.url;
                             const frame = document.querySelector(".iframething");
                             const urlbar = document.querySelector("#urlbar");
-
                             frame.src = url;
                             urlbar.value = url;
                             console.log(url)
@@ -2144,10 +2143,10 @@ switch(id) {
         }
         break;
     case "yt":
-        new WIN("(link)[https://youtube.com]", "(title)[YouTube]", "(icon)[../resources/youtube.png]", "(os)[false]", "(fullscreen)[false]", '(appname)[youtube]');
+        new WIN("(link)[https://colorful-cypress-distance.glitch.me/uv/service/hvtrs8%2F-wuw%2Cymuvu%60e%2Ccmm-]", "(title)[YouTube]", "(icon)[../resources/youtube.png]", "(os)[true]", "(fullscreen)[false]", '(appname)[youtube]');
         break;
     case "code":
-        new WIN('(link)[https://vscode.dev]', '(icon)[../resources/vsc.ico]', '(title)[Visual Studio Code]', "(os)[false]", "(fullscreen)[false]", "(appname)[code]");
+        new WIN('(link)[https://colorful-cypress-distance.glitch.me/uv/service/hvtrs8%2F-vqcmdg.fet%2F]', '(icon)[../resources/vsc.ico]', '(title)[Visual Studio Code]', "(os)[true]", "(fullscreen)[false]", "(appname)[code]");
         break;
     case "text":
         if(text) {
@@ -2180,8 +2179,8 @@ switch(id) {
     case "test":
         new WIN("(link)[../test/test.html]", "(icon)[../resources/test.svg]", "(title)[Terbium Test]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[test]", "(controls)[minClose]", "(text)[test]");
         break;
-    case "game":
-        new WIN("(link)[../game/game.html]", "(icon)[../resources/game.svg]", "(title)[Game Center]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[game]", "(controls)[all]");
+    case "games":
+        new WIN("(link)[../games/games.html]", "(icon)[../resources/game.svg]", "(title)[Game Center]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[game]", "(controls)[all]");
     default: 
         break;
 }
