@@ -1,10 +1,10 @@
 <p align="center"><img src="https://raw.githubusercontent.com/z1g-project/terbium/main/static/resources/terbium.png" height="200">
 </p>
 
-# TerbiumOS web
+# TerbiumOS Rewrite Edition (DEV)
 
 # Quick Deployments
-[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium)
+[![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-v2)
 
 # Description
  - Terbium is a easy to use webOS that runs on NodeJS very smoothly and is free to deploy to replit *UPDATE Heroku support is being droppeded since the free dyno period is over.
