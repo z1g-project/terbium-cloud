@@ -7,7 +7,7 @@
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-v2)
 
 # Description
- - Terbium is a easy to use webOS that runs on NodeJS very smoothly and is free to deploy to replit *UPDATE Heroku support is being droppeded since the free dyno period is over.
+ - Terbium is a easy to use webOS that runs on NodeJS very smoothly and is free to deploy to replit using the replit version *UPDATE Heroku support is being droppeded since the free dyno period is over.
  - BruhProx and Ultraviolet scripts are included
  
 # Setup Guide
