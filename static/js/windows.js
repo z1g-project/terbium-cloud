@@ -54,7 +54,7 @@ function hideStart() {
     }
 }
 
-var availableApps = ["browser", "hypertabs", "code", "youtube", "apple music", "spotify", "tidal", "youtube music", "settings", "help", "color picker", "terminal", "video", "game center"];
+var availableApps = ["browser", "hypertabs", "code", "youtube", "apple music", "spotify", "tidal", "youtube music", "settings", "help", "color picker", "terminal", "video", "game center", "z1g-project", "feedback", "bruhprox"];
 
 class WIN {
     constructor(link, icon, title, os, fullscreen, appName, controlsTypes, textAppText, urlToOpen) {
@@ -2181,6 +2181,15 @@ switch(id) {
         break;
     case "games":
         new WIN("(link)[../games/games.html]", "(icon)[../resources/game.svg]", "(title)[Game Center]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[game]", "(controls)[all]");
+    break;
+    case "bruhprox":
+        new WIN("(link)[https://bruhprox.glitch.me]", "(icon)[../resources/bp.png]", "(title)[BruhProx]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[bruhprox]", "(controls)[all]");
+    break;
+    case "z1g-project":
+        new WIN("(link)[https://z1g-project.johnglynn2.repl.co/new]", "(icon)[../resources/z1g.png]", "(title)[z1g Project]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[z1g-project]", "(controls)[all]");
+    break; 
+  case "feedback":
+        new WIN("(link)[https://forms.gle/qiJ5BEPKWsMZnz2A9]", "(icon)[../resources/terbium.png]", "(title)[Terbium Feedback]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[feedback]", "(controls)[all]");
     default: 
         break;
 }
