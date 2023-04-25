@@ -1,0 +1,21 @@
+{
+	"name": "Terbium",
+	"short_name": "webOS",
+	"start_url": "/",
+	"lang": "en-US",
+	"display": "standalone",
+	"display_override": ["window-controls-overlay"],
+	"icons": [
+		{
+			"src": "https://raw.githubusercontent.com/z1g-project/Terbium/main/static/resources/terbium.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/z1g-project/Terbium/main/static/resources/terbium.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "maskable"
+		}
+	]
+}
