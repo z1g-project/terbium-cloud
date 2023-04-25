@@ -5,10 +5,13 @@
 
 # Quick Deployments
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-replit)
+[![Run on Cyclic](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/official/cyclic.svg)]([https://replit.com/github/z1g-project/terbium-v2](https://app.cyclic.sh/api/app/deploy/z1g-project/Terbium))
+
+**Note that CloudFlare Pages is supported but doesn't have a quick deploy link**
 
 # Description
- - Terbium is a easy to use webOS that runs on NodeJS very smoothly and is free to deploy to replit *UPDATE Heroku support is being droppeded since the free dyno period is over.
- - BruhProx and Ultraviolet scripts are **NOT** included and are Cloud Based
+ - Terbium is a easy to use webOS that runs on NodeJS very smoothly and is free to deploy to replit using the replit version *UPDATE Heroku support is being droppeded since the free dyno period is over.
+ - BruhProx and Ultraviolet scripts are included
  
 # Setup Guide
  If your doing this on Replit use the quick deployment button above. If your usinng a custom server or something that requires manual setup heres what to do
@@ -17,13 +20,11 @@
    - Then your done!
    
 # Images
-![image](https://user-images.githubusercontent.com/49733954/191388633-1b1f27b0-3ceb-4043-a741-6c3d72440da8.png)
-![image](https://user-images.githubusercontent.com/49733954/191388585-055bff3e-3b09-4d46-9c92-e457a51da8d7.png)
-![image](https://user-images.githubusercontent.com/49733954/191388608-6cb6f5e0-a6b5-47c8-a50f-a6b3791a1778.png)
-![image](https://raw.githubusercontent.com/z1g-project/legacy-Terbium/main/static/resources/alm-prev.png)
+![image](https://github.com/TerbiumOS/webOS/blob/main/Terbium.png?raw=true)
 
 **TN Verified Release**
 
 # Credits
  Creators - Titanium Network
  Modifiers - z1g project
+(C) Copyright 2021-2023 z1g Project
