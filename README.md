@@ -6,6 +6,7 @@
 # Quick Deployments
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-v2)
 [![Run on Cyclic](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/official/cyclic.svg)]([https://replit.com/github/z1g-project/terbium-v2](https://app.cyclic.sh/api/app/deploy/z1g-project/Terbium))
+
 **Note that CloudFlare Pages is supported but doesn't have a quick deploy link**
 
 # Description
