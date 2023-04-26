@@ -54,7 +54,7 @@ function hideStart() {
     }
 }
 
-var availableApps = ["browser", "hypertabs", "code", "youtube", "apple music", "spotify", "tidal", "youtube music", "settings", "help", "color picker", "terminal", "video", "game center"];
+var availableApps = ["browser", "hypertabs", "code", "youtube", "apple music", "spotify", "tidal", "youtube music", "settings", "help", "color picker", "terminal", "video", "game center", "z1g-project", "feedback"];
 
 class WIN {
     constructor(link, icon, title, os, fullscreen, appName, controlsTypes, textAppText, urlToOpen, oneInstance, width, height, resizable) {
@@ -2712,6 +2712,7 @@ switch(id) {
         break; 
     case "feedback":
         new WIN("(link)[https://forms.gle/qiJ5BEPKWsMZnz2A9]", "(icon)[../resources/terbium.png]", "(title)[Terbium Feedback]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[feedback]", "(controls)[all]");
+        break;
     default: 
         break;
 }
