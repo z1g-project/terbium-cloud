@@ -2510,7 +2510,7 @@ window.addEventListener("keydown", (e) => {
     }
     if(e.altKey && e.ctrlKey && keyNameLower == "b") {
         e.preventDefault();
-        new WIN("(link)[../hypertabs/index.html]", "(icon)[../resources/terbium.svg]", "(title)[Terbium Browser]", "(os)[true]", "(fullscreen)[false]", '(appname)[hypertabs]');
+        new WIN("(link)[https://extinct-gold-chicken.cyclic.app/]", "(icon)[../resources/terbium.svg]", "(title)[Terbium Browser]", "(os)[true]", "(fullscreen)[false]", '(appname)[hypertabs]');
     }
     if(keyNameLower == "s" && e.ctrlKey && e.altKey) {
         e.preventDefault();
