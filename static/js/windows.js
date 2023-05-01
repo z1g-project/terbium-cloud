@@ -2638,7 +2638,7 @@ window.addEventListener("keydown", (e) => {
 
 switch(id) {
     case "browser":
-        new WIN("(link)[../hypertabs/index.html]", "(title)[Terbium Browser]", "(icon)[../resources/terbium.svg]", "(os)[true]", "(fullscreen)[false]", '(appname)[browser]');
+        new WIN("(link)[https://velocity.radon.games]", "(title)[Terbium Browser]", "(icon)[../resources/terbium.svg]", "(os)[true]", "(fullscreen)[false]", '(appname)[browser]');
         break;
     case "hypertabs":
         new WIN("(link)[../hypertabs/index.html]", "(title)[Terbium Browser]", "(icon)[../resources/terbium.svg]", "(os)[true]", "(fullscreen)[false]", '(appname)[browser]');
