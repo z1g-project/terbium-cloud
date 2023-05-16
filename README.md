@@ -1,13 +1,12 @@
 <p align="center"><img src="https://raw.githubusercontent.com/z1g-project/terbium/main/static/resources/terbium.png" height="200">
 </p>
 
-# TerbiumOS Rewrite Edition (DEV)
+# TerbiumOS Rewrite Edition
 
 # Quick Deployments
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-v2)
-[![Run on Cyclic](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/official/cyclic.svg)]([https://replit.com/github/z1g-project/terbium-v2](https://app.cyclic.sh/api/app/deploy/z1g-project/Terbium))
-
-**Note that CloudFlare Pages is supported but doesn't have a quick deploy link**
+[![Run on Cyclic](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/official/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/z1g-project/Terbium)
+[![Deploy to Cloudflare](https://www.simpleimageresizer.com/_uploads/photos/7b3e1dae/cloudflare_pages_126x29.png)](https://github.com/z1g-project/Terbium/wiki/Deploy-to-Cloudflare-Pages)
 
 # Description
  - Terbium is a easy to use webOS that runs on NodeJS very smoothly and is free to deploy to replit using the replit version *UPDATE Heroku support is being droppeded since the free dyno period is over.
