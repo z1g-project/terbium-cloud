@@ -1,4 +1,3 @@
-
 let dock = document.querySelector("#dock");
 class xor {
     static encode(str) {
@@ -2666,10 +2665,10 @@ switch(id) {
         }
         break;
     case "yt":
-        new WIN("(link)[https://womginx.z1g-project.repl.co/main/https://youtube.com]", "(title)[YouTube]", "(icon)[../resources/youtube.png]", "(os)[true]", "(fullscreen)[false]", '(appname)[youtube]');
+        new WIN("(link)[https://womginxterbium.johnglynn2.repl.co/main/https://youtube.com]", "(title)[YouTube]", "(icon)[../resources/youtube.png]", "(os)[true]", "(fullscreen)[false]", '(appname)[youtube]');
         break;
     case "code":
-        new WIN('(link)[https://womginx.z1g-project.repl.co/main/https://vscode.dev]', '(icon)[../resources/vsc.ico]', '(title)[Visual Studio Code]', "(os)[true", "(fullscreen)[false]", "(appname)[code]");
+        new WIN('(link)[https://womginxterbium.johnglynn2.repl.co/main/https://vscode.dev]', '(icon)[../resources/vsc.ico]', '(title)[Visual Studio Code]', "(os)[true", "(fullscreen)[false]", "(appname)[code]");
         break;
     case "text":
         if(text) {
