@@ -54,7 +54,7 @@ function hideStart() {
     }
 }
 
-var availableApps = ["browser", "hypertabs", "code", "youtube", "apple music", "spotify", "tidal", "youtube music", "settings", "help", "color picker", "terminal", "video", "game center"];
+var availableApps = ["browser", "hypertabs", "code", "youtube", "apple music", "spotify", "tidal", "youtube music", "settings", "help", "color picker", "terminal", "video", "game center", "z1g-project", "feedback"];
 
 class WIN {
     constructor(link, icon, title, os, fullscreen, appName, controlsTypes, textAppText, urlToOpen, oneInstance, width, height, resizable) {
@@ -786,6 +786,18 @@ class WIN {
                     </svg>
                 `;
                 break;
+            case "games":
+                    faviconHTML = `
+                        <svg class="favicon" id="favicon" viewBox="0 0 80 80" fill="none">
+                            <path class="fill" fill-rule="evenodd" clip-rule="evenodd" d="M9 23C9 19.6863 11.6863 17 15 17H65.6111C68.9248 17 71.6111 19.6863 71.6111 23V57C71.6111 60.3137 68.9248 63 65.6111 63H15C11.6863 63 9 60.3137 9 57V23ZM38.3889 46.4945C38.3889 45.9422 38.8366 45.4945 39.3889 45.4945H56.5555C57.1078 45.4945 57.5555 45.9422 57.5555 46.4945V49.6056C57.5555 50.1579 57.1078 50.6056 56.5555 50.6056H39.3889C38.8366 50.6056 38.3889 50.1579 38.3889 49.6056V46.4945ZM21.2652 45.9362C20.8421 46.2912 20.787 46.9219 21.142 47.345L23.6893 50.3808C24.0443 50.8039 24.6751 50.8591 25.0981 50.5041L34.2339 42.8382L37.2697 40.2909C37.6928 39.9359 37.748 39.3051 37.393 38.8821L34.8456 35.8463L34.8452 35.8457L27.1798 26.7105C26.8248 26.2874 26.194 26.2322 25.771 26.5872L22.7352 29.1346C22.3121 29.4896 22.2569 30.1203 22.6119 30.5434L28.1976 37.2002L28.8344 38.2495C29.0609 38.6227 29.0192 39.0996 28.7314 39.4277L27.9221 40.3504L27.922 40.3505L21.2652 45.9362ZM29.635 38.9132L28.1976 37.2002L29.635 38.9131L29.635 38.9132Z"/>
+                        </svg>
+                    `;
+            case "feedback":
+                    faviconHTML = `
+                        <svg class="favicon" id="favicon" viewBox="0 0 80 80" fill="none">
+                            <path class="fill" fill-rule="evenodd" clip-rule="evenodd" d="M9 23C9 19.6863 11.6863 17 15 17H65.6111C68.9248 17 71.6111 19.6863 71.6111 23V57C71.6111 60.3137 68.9248 63 65.6111 63H15C11.6863 63 9 60.3137 9 57V23ZM38.3889 46.4945C38.3889 45.9422 38.8366 45.4945 39.3889 45.4945H56.5555C57.1078 45.4945 57.5555 45.9422 57.5555 46.4945V49.6056C57.5555 50.1579 57.1078 50.6056 56.5555 50.6056H39.3889C38.8366 50.6056 38.3889 50.1579 38.3889 49.6056V46.4945ZM21.2652 45.9362C20.8421 46.2912 20.787 46.9219 21.142 47.345L23.6893 50.3808C24.0443 50.8039 24.6751 50.8591 25.0981 50.5041L34.2339 42.8382L37.2697 40.2909C37.6928 39.9359 37.748 39.3051 37.393 38.8821L34.8456 35.8463L34.8452 35.8457L27.1798 26.7105C26.8248 26.2874 26.194 26.2322 25.771 26.5872L22.7352 29.1346C22.3121 29.4896 22.2569 30.1203 22.6119 30.5434L28.1976 37.2002L28.8344 38.2495C29.0609 38.6227 29.0192 39.0996 28.7314 39.4277L27.9221 40.3504L27.922 40.3505L21.2652 45.9362ZM29.635 38.9132L28.1976 37.2002L29.635 38.9131L29.635 38.9132Z"/>
+                        </svg>
+                    `;
             case "canvas":
                 faviconHTML = `
                     <svg class="favicon" id="favicon" viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -923,7 +935,8 @@ class WIN {
                         </g>
                     </svg>
                 `;
-                break;
+            break;
+
             case "store":
                 faviconHTML = `
                     <svg class="favicon" id="favicon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2510,7 +2523,7 @@ window.addEventListener("keydown", (e) => {
     }
     if(e.altKey && e.ctrlKey && keyNameLower == "b") {
         e.preventDefault();
-        new WIN("(link)[../hypertabs/index.html]", "(icon)[../resources/terbium.svg]", "(title)[Terbium Browser]", "(os)[true]", "(fullscreen)[false]", '(appname)[hypertabs]');
+        new WIN("(link)[https://velocity.radon.games/]", "(icon)[../resources/terbium.svg]", "(title)[Terbium Browser]", "(os)[true]", "(fullscreen)[false]", '(appname)[hypertabs]');
     }
     if(keyNameLower == "s" && e.ctrlKey && e.altKey) {
         e.preventDefault();
@@ -2665,10 +2678,10 @@ switch(id) {
         }
         break;
     case "yt":
-        new WIN("(link)[https://womginxterbium.johnglynn2.repl.co/main/https://youtube.com]", "(title)[YouTube]", "(icon)[../resources/youtube.png]", "(os)[true]", "(fullscreen)[false]", '(appname)[youtube]');
+        new WIN("(link)[https://womginxterbium.johnglynn2.repl.co/main/https://youtube.com]", "(title)[YouTube]", "(icon)[../resources/youtube.png]", "(os)[false]", "(fullscreen)[false]", '(appname)[youtube]');
         break;
     case "code":
-        new WIN('(link)[https://womginxterbium.johnglynn2.repl.co/main/https://vscode.dev]', '(icon)[../resources/vsc.ico]', '(title)[Visual Studio Code]', "(os)[true", "(fullscreen)[false]", "(appname)[code]");
+        new WIN('(link)[https://womginxterbium.johnglynn2.repl.co/main/https://vscode.dev]', '(icon)[../resources/vsc.ico]', '(title)[Visual Studio Code]', "(os)[false]", "(fullscreen)[false]", "(appname)[code]");
         break;
     case "text":
         if(text) {
@@ -2702,7 +2715,7 @@ switch(id) {
         new WIN("(link)[../test/test.html]", "(icon)[../resources/test.svg]", "(title)[Terbium Test]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[test]", "(controls)[minClose]", "(text)[test]");
         break;
     case "games":
-        new WIN("(link)[../games/games.html]", "(icon)[../resources/game.svg]", "(title)[Game Center]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[game]", "(controls)[all]");
+        new WIN("(link)[../games/games.html]", "(icon)[../resources/game.svg]", "(title)[Game Center]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[games]", "(controls)[all]");
         break;
     case "bruhprox":
         new WIN("(link)[https://bruhprox.pages.dev]", "(icon)[../resources/bruhprox.png]", "(title)[BruhProx]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[bruhprox]", "(controls)[all]");
@@ -2712,6 +2725,7 @@ switch(id) {
         break; 
     case "feedback":
         new WIN("(link)[https://forms.gle/qiJ5BEPKWsMZnz2A9]", "(icon)[../resources/terbium.png]", "(title)[Terbium Feedback]", "(browser)[false]", "(os)[true]", "(fullscreen)[false]", "(appName)[feedback]", "(controls)[all]");
+        break;
     default: 
         break;
 }

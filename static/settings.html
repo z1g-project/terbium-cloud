@@ -7,6 +7,22 @@
     <title>Settings</title>
     <link rel="stylesheet" id="rels" href="./styles/settings.css">
     <link rel="stylesheet" href="./styles/cursors.css">
+    <style>
+        .centered-text {
+        text-align: center;
+        }
+        .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px; /* Adjust the height as needed */
+        }
+
+        .centered-image {
+        max-width: 100%;
+        max-height: 100%;
+        }
+    </style>
 </head>
     <body>
         <button class="btn reset" id="resetAll">Reset All Settings</button>
@@ -30,6 +46,11 @@
                     <path class="stroke" d="M19 13V25" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                     <path class="stroke" d="M13 18.7148H25" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                     <rect class="stroke" x="1.5" y="1.5" width="35" height="35" rx="4.5" stroke-width="3"/>
+                </svg>
+            </div>
+            <div class="category" type="about" title="About">
+                <svg class="catIcon catStroke" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="fill" d="M38.185 28.3046C39.2895 28.3046 40.185 27.4092 40.185 26.3046V17.8946C40.185 16.79 39.2895 15.8946 38.185 15.8946H2C0.895431 15.8946 0 16.79 0 17.8946V26.3046C0 27.4092 0.895431 28.3046 2 28.3046H11.5633C12.6679 28.3046 13.5633 29.2 13.5633 30.3046V65.6516C13.5633 66.7562 14.4588 67.6516 15.5633 67.6516H24.6216C25.7262 67.6516 26.6216 66.7562 26.6216 65.6516V30.3046C26.6216 29.2 27.5171 28.3046 28.6216 28.3046H38.185ZM82.3151 31.7356C82.6035 21.8806 75.4613 15.9676 65.7215 15.9676H47.2323C46.1277 15.9676 45.2323 16.863 45.2323 17.9676V65.6516C45.2323 66.7562 46.1277 67.6516 47.2323 67.6516H66.0824C77.4092 67.6516 82.9644 62.6146 84.2629 54.2926C84.8847 50.5173 84.1171 44.2648 77.9039 40.6006C77.5532 40.3938 77.5487 39.8621 77.8871 39.6358C80.9601 37.581 82.2486 33.8854 82.3151 31.7356ZM60.2184 36.1886C59.1139 36.1886 58.2184 35.2932 58.2184 34.1886V28.9906C58.2184 27.886 59.1139 26.9906 60.2184 26.9906H65.7215C72.2146 26.9906 71.9982 36.1886 65.7215 36.1886H60.2184ZM60.2184 56.1906C59.1139 56.1906 58.2184 55.2952 58.2184 54.1906V47.6056C58.2184 46.501 59.1139 45.6056 60.2184 45.6056H65.7215C73.3689 45.6056 73.5132 56.1906 65.7215 56.1906H60.2184Z"></path>                        
                 </svg>
             </div>
         </div>
@@ -177,7 +198,25 @@
                     </div>
                 </div>
             </div>
+            <div class="cat aboutView" view="about" hiddenCat="true">
+                <div class="title">
+                    <h1>About</h1>
+                    <div class="border-bottom"></div>
+                </div>
+                <div class="info">
+                    <div class="image-container">
+                        <img src="./resources/terbium.png" alt="TB Logo" class="centered-image">
+                    </div>                    
+                    <h4 class="centered-text">Terbium WebOS</h4>
+                    <h4 class="centered-text">Version: 1.45.2 Pre Release</h4>
+                    <h4 class="centered-text">Developer: XSTARS</h4>
+                    <h4 class="centered-text">Original Crator: SNOOT</h4>
+                    <h4 class="centered-text">(C) Copyright 2023 z1g Project All Rights Reserved</h4>
+                    <h4 class="centered-text">Licensed under the <a href="https://github.com/z1g-project/Terbium/blob/main/LICENSE" target="_blank">Apache 2.0 License</a></h4>
+                </div>
+            </div>    
         </div><script src="./js/theme.js"></script>
         <script src="./js/settings.js"></script>
+        <script src="./js/tms.js"></script>
     </body>
 </html>

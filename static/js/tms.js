@@ -1,7 +1,7 @@
 class TMS {
     constructor() {
-        this.version = "1.45";
-        this.build = "Release Preview (Replit)";
+        this.version = "1.45.2";
+        this.build = "Release Preview (Cloud Edition)";
     }
     version() {
         return this.version;
