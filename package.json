@@ -1,25 +1,21 @@
 {
   "dependencies": {
-    "bare-server-node": "github:tomphttp/bare-server-node",
-    "draggabilly": "^3.0.0",
-    "ev-emitter": "^2.1.2",
-    "get-size": "^3.0.0",
-    "jquery": "^3.6.4",
+    "@tomphttp/bare-server-node": "^1.2.6",
     "node-static": "^0.7.11",
     "npm": "^8.7.0",
     "path": "^0.12.7",
+    "serve-static": "^1.15.0",
     "simplebar": "^5.3.8",
-    "start": "^5.1.0",
-    "unidragger": "^3.0.1",
-    "unipointer": "^2.4.0"
+    "start": "^5.1.0"
   },
   "name": "uv-app",
   "version": "1.0.0",
-  "description": "Terbium instance",
+  "description": "Ultraviolet instance",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "node index.js"
   },
   "keywords": [
     "proxy"
@@ -28,10 +24,10 @@
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/z1g-project/Terbium-replit.git"
+    "url": "git+https://github.com/z1g-project/terbium-cloud.git"
   },
   "bugs": {
-    "url": "https://github.com/z1g-project/Terbium/issues"
+    "url": "https://github.com/z1g-project/terbium-cloud/issues"
   },
-  "homepage": "https://github.com/Terbium/Terbium#readme"
+  "homepage": "https://github.com/z1g-rpoject/terbium-cloud#readme"
 }
