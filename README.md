@@ -3,6 +3,8 @@
 
 # TerbiumOS Rewrite Edition (Cloud Based Proxy)
 
+**⚠️ This is now deprecated because it is a pain to maintain, and its purpose of being hosted on replit is now done because they are going paid. For more information please feel free to visit: [https://z1g-project.pages.dev/support/kb/78912]() If you wish to continue using "Terbium webOS" Check out the normal instance that has way more support and is way more stable here: [https://github.com/z1g-project/terbium]()**
+
 # Quick Deployments
 
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/z1g-project/terbium-replit)
